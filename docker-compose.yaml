@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  gnanasai-ui-app:
+    image: gnanasai-web:app$BUILD_NUMBER
+    build: .
+    container_name: gnanasaic1
+    ports:
+    - 1234:80
