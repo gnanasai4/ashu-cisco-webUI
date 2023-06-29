@@ -3,6 +3,6 @@ services:
   gnanasai-ui-app:
     image: gnanasai-web:app$BUILD_NUMBER
     build: .
-    container_name: gnanasaic1
+    container_name: gnanasaic2
     ports:
     - 1284:80
